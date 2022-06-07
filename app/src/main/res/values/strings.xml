@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="slide1">slide1</string>
+    <string name="slide2">slide2</string>
+    <string name="slide3">slide3</string>
+    <string name="slide4">slide4</string>
+    <string name="login_text_email">Please enter email</string>
+    <string name="login_text_passw">Password</string>
+    <string name="forgot_passw">Forgot password?</string>
+    <string name="create_acc">Sign up an account</string>
+    <string name="login_your_acc">Log in your account</string>
+
+    <string name="notification">Notification</string>
+    <string name="home">Home</string>
+    <string name="contact_support">Contact us</string>
+    <string name="profile">Profile</string>
+
+</resources>

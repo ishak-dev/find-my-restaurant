@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/food_background.xml" value="0.244" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.244" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/ic_baseline_contact_support_24.xml" value="0.2535" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2365" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/ic_baseline_trip_origin_24.xml" value="0.175" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/drawable/rounded_corner.xml" value="0.244" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_notification_details.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_restaurant_details.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/contact_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slide1.xml" value="0.14" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slide2.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slider1.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slider2.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slider3.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slider4.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/home_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/information_fragment.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/login.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/login_details.xml" value="0.25" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/notificaiton_list_view.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/notification_fragment.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/profile_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/restaurant_list_view.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/restaurants_details.xml" value="0.25" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/menu/bottom_navigation.xml" value="0.2796875" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/menu/bottom_slider.xml" value="0.33" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/mipmap-anydpi-v26/food.xml" value="0.244" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/mipmap-anydpi-v26/food_round.xml" value="0.244" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

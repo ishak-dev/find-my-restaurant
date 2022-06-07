@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/slide1"
+        android:icon="@drawable/ic_baseline_trip_origin_24"
+        android:title="."
+        />
+    <item
+        android:id="@+id/slide2"
+        android:icon="@drawable/ic_baseline_trip_origin_24"
+        android:title="."
+        />
+    <item
+        android:id="@+id/slide3"
+        android:icon="@drawable/ic_baseline_trip_origin_24"
+        android:title="."
+        />
+    <item
+        android:id="@+id/slide4"
+        android:icon="@drawable/ic_baseline_trip_origin_24"
+        android:title="."
+        />
+</menu>
