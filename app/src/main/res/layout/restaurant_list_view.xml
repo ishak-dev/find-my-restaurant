@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="52dp"
+        android:ellipsize="end"
         android:text="Very good restaurant, it has a lot of delicious food, location is on Ilidza"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

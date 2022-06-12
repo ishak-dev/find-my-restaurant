@@ -1,6 +1,7 @@
 package com.example.restaurant;
 
 import android.content.Context;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +33,7 @@ public class RestaurantListViewAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int i) {
-        return restaurantModelList.indexOf(restaurantModelList.get(i));
+        return restaurantModelList.get(i).getId();
     }
 
     @Override
@@ -47,7 +48,7 @@ public class RestaurantListViewAdapter extends BaseAdapter {
         TextView expensiveTextView = view.findViewById(R.id.restaurant_expensive);
         TextView reviewTextView = view.findViewById(R.id.restaurant_review);
 
-        imageView.setImageResource(restaurantModel.getImageResId());
+        imageView.setImageURI(Uri.parse(restaurantModel.getImageResId()));
         titleTextView.setText(restaurantModel.getTitle());
         descriptionTextView.setText(restaurantModel.getDescription());
         expensiveTextView.setText(restaurantModel.getExpensive());

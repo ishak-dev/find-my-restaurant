@@ -4,6 +4,8 @@ import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
 
+import java.util.List;
+
 @Dao
 public interface SignupDao {
     @Insert
@@ -17,5 +19,6 @@ public interface SignupDao {
 
     @Query("UPDATE signup SET password=:password WHERE email=:email")
     Void updatePassword(String password,String email);
+
 
 }

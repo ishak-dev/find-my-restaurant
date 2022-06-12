@@ -20,6 +20,8 @@ public class RestaurantDetails extends AppCompatActivity {
     private TextView longDescription;
     private TextView expensive;
     private TextView review;
+    private String urlText;
+    private String locationText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,20 +37,23 @@ public class RestaurantDetails extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if(extras != null){
-            setTitle(extras.getString(HomeFragment.EXTRA_TITLE));
-            imageView.setImageResource(extras.getInt(HomeFragment.EXTRA_IMAGE));
-            title.setText(extras.getString(HomeFragment.EXTRA_TITLE));
-            description.setText(extras.getString(HomeFragment.EXTRA_DESCRIPTION));
-            longDescription.setText(extras.getString(HomeFragment.EXTRA_LONG_DESCRIPTION));
-            expensive.setText(extras.getString(HomeFragment.EXTRA_EXPENSIVE));
-            review.setText(extras.getString(HomeFragment.EXTRA_REVIEW));
+            long getId = extras.getLong(HomeFragment.EXTRA_RESTAURANT_ID);
+            RestaurantModel restaurant = AppDatabase.getInstance(this).restaurantDao().getById(getId);
+            imageView.setImageURI(Uri.parse(restaurant.getImageResId()));
+            title.setText(restaurant.getTitle());
+            description.setText(restaurant.getDescription());
+            longDescription.setText(restaurant.getLongDescription());
+            expensive.setText(restaurant.getExpensive());
+            review.setText(restaurant.getReview());
+
+            urlText = restaurant.getUrl();
+            locationText = restaurant.getLocation();
 
         }
     }
 
     public void goToUrl(View view){
-        Bundle extras = getIntent().getExtras();
-        String urlText = extras.getString(HomeFragment.EXTRA_URL);
+
         Uri uri  = Uri.parse("http://"+urlText);
         Intent intent = new Intent(Intent.ACTION_VIEW,uri);
         try{
@@ -59,8 +64,6 @@ public class RestaurantDetails extends AppCompatActivity {
     }
 
     public void goToLocation(View view){
-        Bundle extras = getIntent().getExtras();
-        String locationText = extras.getString(HomeFragment.EXTRA_LOCATION);
         Uri uri = Uri.parse("geo:0,0?q="+locationText);
         Intent intent = new Intent(Intent.ACTION_VIEW,uri);
         try{

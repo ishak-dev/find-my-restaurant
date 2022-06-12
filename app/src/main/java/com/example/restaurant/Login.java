@@ -39,9 +39,15 @@ public class Login extends AppCompatActivity {
         Signup password = AppDatabase.getInstance(this).signupDao().getUserByPassword(getEmail,getPassword);
         if (email != null){
             if(password != null){
+                if(email.getEmail().equals("admin") || email.getPassword().equals("admin")){
+                    Intent intent = new Intent(this, AdminDashboard.class);
+                    startActivity(intent);
+                }
+                else{
                 Intent intent = new Intent(this, HomeActivity.class);
                 intent.putExtra(EXTRA_USER_EMAIL,getEmail);
                 startActivity(intent);
+                }
             }else{
                 Toast.makeText(this, "Password wrong", Toast.LENGTH_SHORT).show();
             }

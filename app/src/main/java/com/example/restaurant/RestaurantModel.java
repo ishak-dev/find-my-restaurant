@@ -1,8 +1,19 @@
 package com.example.restaurant;
 
+
+import android.graphics.Bitmap;
+import android.net.Uri;
+
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName="restaurants")
 public class RestaurantModel {
 
-    private int imageResId;
+    @PrimaryKey(autoGenerate = true)
+    private long id;
+
+    private String imageResId;
     private String title;
     private String description;
     private String longDescription;
@@ -11,7 +22,7 @@ public class RestaurantModel {
     private String location;
     private String url;
 
-    public RestaurantModel(int imageResId, String title, String description,String longDescription, String review, String expensive, String location, String url) {
+    public RestaurantModel( String imageResId, String title, String description,String longDescription, String review, String expensive, String location, String url) {
         this.imageResId = imageResId;
         this.title = title;
         this.description = description;
@@ -21,6 +32,14 @@ public class RestaurantModel {
         this.location = location;
         this.url = url;
 
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getLocation() {
@@ -39,11 +58,11 @@ public class RestaurantModel {
         this.url = url;
     }
 
-    public int getImageResId() {
+    public String getImageResId() {
         return imageResId;
     }
 
-    public void setImageResId(int imageResId) {
+    public void setImageResId(String imageResId) {
         this.imageResId = imageResId;
     }
 

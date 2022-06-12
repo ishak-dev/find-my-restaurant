@@ -22,10 +22,11 @@ public class NotificationDetails extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null){
-            setTitle(extras.getString(NotificationFragment.EXTRAS_TITLE));
-            title.setText(extras.getString(NotificationFragment.EXTRAS_TITLE));
-            message.setText(extras.getString(NotificationFragment.EXTRAS_MESSAGE));
-            time.setText(extras.getString(NotificationFragment.EXTRAS_TIME));
+            long id =  extras.getLong(NotificationFragment.EXTRAS_ID);
+            Notification notification = AppDatabase.getInstance(this).notificationDao().getNotifById(id);
+            title.setText(notification.getNotificationTitle());
+            message.setText(notification.getNotificationMessage());
+            time.setText(notification.getNotificationTime());
         }
     }
 }

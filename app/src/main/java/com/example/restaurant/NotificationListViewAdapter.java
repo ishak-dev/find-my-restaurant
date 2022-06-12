@@ -32,7 +32,7 @@ public class NotificationListViewAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int i) {
-        return notificationList.indexOf(notificationList.get(i));
+        return notificationList.get(i).getId();
     }
 
     @Override
