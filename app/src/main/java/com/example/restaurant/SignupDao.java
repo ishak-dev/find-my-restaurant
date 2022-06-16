@@ -14,6 +14,7 @@ public interface SignupDao {
     @Query("SELECT * FROM signup WHERE email=:email LIMIT 1")
     Signup getUserByEmail(String email);
 
+
     @Query("SELECT * FROM signup WHERE email=:email AND password=:password LIMIT 1")
     Signup getUserByPassword(String email,String password);
 

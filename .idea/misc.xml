@@ -22,8 +22,9 @@
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_notification_details.xml" value="0.2604166666666667" />
-        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_restaurant_details.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_restaurant_details.xml" value="0.18" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/activity_user_add_review.xml" value="0.24682971014492755" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/contact_fragment.xml" value="0.2" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slide1.xml" value="0.14" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/fragments_slide2.xml" value="0.22" />
@@ -41,6 +42,7 @@
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/profile_fragment.xml" value="0.33" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/restaurant_list_view.xml" value="0.22" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/restaurants_details.xml" value="0.25" />
+        <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/layout/review_list_view.xml" value="0.24682971014492755" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/menu/bottom_navigation.xml" value="0.2796875" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/menu/bottom_slider.xml" value="0.33" />
         <entry key="..\:/Users/Isko/AndroidStudioProjects/Restaurant/app/src/main/res/mipmap-anydpi-v26/food.xml" value="0.244" />

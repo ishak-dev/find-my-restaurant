@@ -20,6 +20,7 @@ public class ProfileFragment extends Fragment {
     TextView name;
     private String getEmail;
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup viewGroup, @Nullable Bundle savedInstanceState){
@@ -54,12 +55,13 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+
+
+
         return view;
     }
 
 
-    public void onChange(View view){
 
-    }
 
 }

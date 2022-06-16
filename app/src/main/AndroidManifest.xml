@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Restaurant">
         <activity
+            android:name=".UserAddReview"
+            android:exported="false" />
+        <activity
             android:name=".Admin_Message"
             android:exported="false" />
         <activity

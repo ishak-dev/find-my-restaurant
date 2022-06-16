@@ -46,9 +46,14 @@ public class SignupActivity extends AppCompatActivity {
         }else{
             Toast.makeText(this, "User exist", Toast.LENGTH_SHORT).show();
         }
-        
 
 
+
+    }
+
+    public void OnLogIn(View view){
+        Intent intent = new Intent(this,Login.class);
+        startActivity(intent);
     }
 
 }

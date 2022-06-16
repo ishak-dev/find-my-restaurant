@@ -35,7 +35,7 @@
 
     <EditText
         android:id="@+id/setDescription_notification"
-        android:layout_width="373dp"
+        android:layout_width="0dp"
         android:layout_height="203dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"

@@ -7,12 +7,13 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 
-@Database(entities = {Signup.class,RestaurantModel.class,Notification.class,Message.class},version = 5,exportSchema = false)
+@Database(entities = {Signup.class,RestaurantModel.class,Notification.class,Message.class,Review.class},version = 6,exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract SignupDao signupDao();
     public abstract RestaurantDao restaurantDao();
     public abstract NotificationDao notificationDao();
     public abstract MessageDao messageDao();
+    public abstract ReviewDao reviewDao();
 
     private static AppDatabase INSTANCE;
 
